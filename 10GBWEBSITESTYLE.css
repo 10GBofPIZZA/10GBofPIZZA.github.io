@@ -1,7 +1,8 @@
 body h1{color: #f12f39; font-family: ARIAL; margin: 30px 20px 20px 0px; text-shadow: 2px 2px black}
 body h2{color: #33f749; font-family: ARIAL; margin: 30px 20px 20px 0px}
 body{background-color: #bfe9e4; color: #db1c47; margin: 20px 20px 0px 30px; font-family: "Andale Mono"}
-img{border-width: 3px; border-color: white }
+img{border-width: 3px; border-color: white}
 a{color: #570155; text-decoration: unset}
 .center{margin-left: 65px; display: block;}
-.center2{margin-left: 300px}
+.centerh1{margin-left: 300px}
+.centerh2{margin-left: 350px}
