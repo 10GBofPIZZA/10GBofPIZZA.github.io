@@ -3,7 +3,7 @@ body h2{color: #c7179f; font-family: ARIAL; margin: 30px 20px 20px 0px; text-sha
 body{background-color: #bfe9e4; color: #db1c47; margin: 20px 20px 0px 30px; font-family: "Andale Mono"}
 body img {border: 1px solid black;}
 a{color: #570155; text-decoration: unset}
-button{background-color:#add8e6;}
+button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
 .imgcenter{margin-left: 85px; display: block; border-width: 5px; border-color: black}
 .buttoncenter{display: block; margin-left: auto; margin-right: auto; width: 10%; margin-top: 40px}
 .homebuttons{display: block; margin-left: auto; margin-right: auto; width: 10%; margin-top: 20px}
