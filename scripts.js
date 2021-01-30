@@ -1,7 +1,7 @@
 //all the scripts, mostly the buttons
 
 //index.html
-document.getElementById("myButton").onclick = function () 
+document.getElementById("links").onclick = function () 
 {
     location.href = './Links.html';
 };
