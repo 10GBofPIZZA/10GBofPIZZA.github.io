@@ -8,10 +8,15 @@ document.getElementById("myButton").onclick = function ()
 
 document.getElementById("games").onclick = function () 
 {
-    location.href = 'Games.html';
+    location.href = './Games.html';
 };
 
 document.getElementById("closeUI").onclick = function () 
 {
-    location.href = 'index.html';
+    location.href = './index.html';
+};
+
+document.getElementById("madness").onclick = function () 
+{
+    location.href = './insertingmp3.html';
 };
