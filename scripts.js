@@ -15,3 +15,8 @@ document.getElementById("closeUI").onclick = function ()
 {
     location.href = "index.html";
 };
+
+document.getElementById("closeUI").onclick = function () 
+{
+    location.href = "index.html";
+};
