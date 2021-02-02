@@ -3,15 +3,15 @@
 //index.html
 document.getElementById("links").onclick = function () 
 {
-    location.href = './Links.html';
+    location.href = 'Links.html';
 };
 
 document.getElementById("games").onclick = function () 
 {
-    location.href = './Games.html';
+    location.href = 'Games.html';
 };
 
 document.getElementById("closeUI").onclick = function () 
 {
-    location.href = './index.html';
+    location.href = 'index.html';
 };
