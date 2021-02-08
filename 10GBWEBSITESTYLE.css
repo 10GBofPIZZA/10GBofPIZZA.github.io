@@ -22,6 +22,6 @@ button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
 }
 @font-face {
     font-family: 'JetBrains Mono';
-    src:url("./JetBrainsMono-2/fonts/ttf/JetBrainsMono-Regular")
+    src:url("./JetBrainsMono-2/fonts/ttf/JetBrainsMono-Regular");
 }
 .jetbrainsmonofont{font-family: 'JetBrains Mono';}
