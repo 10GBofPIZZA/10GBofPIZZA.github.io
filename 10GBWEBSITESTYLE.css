@@ -9,4 +9,4 @@ button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
 .homebuttons{display: block; margin-left: auto; margin-right: auto; width: 10%; margin-top: 20px}
 .centerh1{text-align: center;}
 .centerh2{text-align: center;}
-.eastereggbutton{color: #00000000;}
+.eastereggbutton{color: #00000000; background-color: #00000000; border-color: #00000000;}
