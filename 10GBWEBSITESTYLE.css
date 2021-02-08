@@ -20,4 +20,8 @@ button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
     margin: 4px 2px;
     cursor: pointer;
 }
-.jetbrainsmonofont{font-family: 'Jetbrains Mono';}
+@font-face {
+    font-family: "JetBrains Mono";
+    src:url("./JetBrainsMono-2/fonts/ttf/JetBrainsMono-Regular")
+}
+.jetbrainsmonofont{font-family: 'JetBrains Mono';}
