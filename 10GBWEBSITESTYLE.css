@@ -1,5 +1,5 @@
 body h1{color: #f12f39; font-family: ARIAL; margin-top: 30px; text-shadow: 2px 2px black}
-body h2{color: #c7179f; font-family: ARIAL; margin: 30px 20px 20px 0px; text-shadow: 1px 1px black}
+body h2{color: #649ad8; font-family: ARIAL; margin: 30px 20px 20px 0px; text-shadow: 1px 1px black}
 body{background-color: #bfe9e4; color: #db1c47; margin: 20px 20px 0px 30px; font-family: "Andale Mono"}
 body img {border: 1px solid black;}
 a{color: #570155;}
@@ -12,7 +12,7 @@ button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
 
 body h3{font-family: JBfont; font-style: normal; font-weight: 200;}
 
-.imgcenter{margin-left: 85px; display: block; border-width: 5px; border-color: black}
+.imgcenter{margin-left: 85px; display: block; border-width: 5px; border-color: black;}
 .buttoncenter{font-family:JBfont; display: block; margin-left: auto; margin-right: auto; width: 10%; margin-top: 40px}
 .homebuttons{font-family: JBfont;display: block; margin-left: auto; margin-right: auto; width: 10%; margin-top: 20px}
 .centerh1{text-align: center;}
@@ -30,3 +30,7 @@ body h3{font-family: JBfont; font-style: normal; font-weight: 200;}
 }
 
 .jetbrainsmonofont{font-family: JBfont;}
+
+ul li{list-style: none; display: inline-block; float:left; margin-left: 50px;}
+ul li a{text-decoration: none; color: cadetblue; display: block;}
+
