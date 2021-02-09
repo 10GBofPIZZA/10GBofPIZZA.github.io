@@ -6,7 +6,7 @@ a{color: #570155;}
 button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
 
 @font-face {
-    src:url("/JetBrainsMono-Regular.ttf");
+    src:url("JetBrainsMono-Regular.ttf");
     font-family: JBfont;
 }
 
