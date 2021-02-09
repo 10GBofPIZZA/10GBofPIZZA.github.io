@@ -8,16 +8,19 @@
 <body>
 	<h1 class = "centerh1">WELCOME TO 10GBOFPIZZA'S WEBSITE!</h1>
 	<h2 class = "centerh2">A place about a man who once ate pizza.</h2>
-
-	<button id="links" class="homebuttons" ><h3 class="jetbrainsmonofont">Youtube</h3></button>
-	<button id = "games" class = "homebuttons"><h3 class="jetbrainsmonofont">Games</h3></button>
-	<center><button id = "madness" class = "eastereggbutton"><h3 class="jetbrainsmonofont">MADNESS</h3></button></center>
-	<script>
-		document.getElementById("madness").onclick = function () 
-		{
-    		location.href = './insertingmp3.html';
-		};
-	</script>
+	<nav>
+		<ul>
+			<li><a href="Links.html"><h3 class="jetbrainsmonofont">Youtube</h3></a></li>
+			<li><a href="Games.html"><h3 class="jetbrainsmonofont">Games</h3></button></a></li>
+			<center><button id = "madness" class = "eastereggbutton"><h3 class="jetbrainsmonofont">MADNESS</h3></button></center>
+			<script>
+				document.getElementById("madness").onclick = function () 
+				{
+    				location.href = './insertingmp3.html';
+				};
+			</script>
+		</ul>
+	</nav>
 	<script src="scripts.js"></script>
 </body>
 </html>
