@@ -10,6 +10,8 @@ button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
     font-family: JBfont;
 }
 
+body h3{font-family: JBfont;}
+
 .imgcenter{margin-left: 85px; display: block; border-width: 5px; border-color: black}
 .buttoncenter{font-family:JBfont; display: block; margin-left: auto; margin-right: auto; width: 10%; margin-top: 40px}
 .homebuttons{font-family: JBfont;display: block; margin-left: auto; margin-right: auto; width: 10%; margin-top: 20px}
