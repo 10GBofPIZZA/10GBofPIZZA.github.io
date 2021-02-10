@@ -33,4 +33,5 @@ body h3{font-family: JBfont; font-style: normal; font-weight: 200;}
 
 ul li{list-style: none; display: inline-block; float:left; margin-left: 50px;}
 ul li a{text-decoration: none; color: cadetblue; display: block;}
+ul li a:hover{color:rgb(7, 189, 196);}
 
