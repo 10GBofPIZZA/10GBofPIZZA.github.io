@@ -12,7 +12,17 @@
             p{color: black; left:0}
             .centered2{position:absolute; margin-left: 10px; margin-right: 10px; left:40%; top:50%}
             *{padding: 0; margin: 0; box-sizing: border-box;}
-            h3{font-size: 30px;}
+            @media screen and (min-width: 721px) {
+                div.centered2 {
+                font-size: 25px;
+                }
+            }
+
+            @media screen and (max-width: 720px) {
+                div.centered2 {
+                font-size: 15px;
+                }
+            }
         </style>
     </head>
 

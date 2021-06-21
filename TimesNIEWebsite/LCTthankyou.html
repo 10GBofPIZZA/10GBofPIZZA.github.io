@@ -10,11 +10,11 @@
             .centered2{color: white}
             body{color:black}
             p{color: black; left:0}
-            .centered2{position:absolute; margin-left: 10px; margin-right: 10px; left:40%; top:50%; font-size: 20px;}
+            /*.centered2{position:absolute; margin-left: 10px; margin-right: 10px; left:40%; top:50%; font-size: 20px;}*/
             *{padding: 0; margin: 0; box-sizing: border-box;}
             body{background-color: #cacaca; width: 100%; min-height: 100vh;}
             p{
-                font-size: 80; font-family: "Source Code Pro"; color: rgb(0, 0, 0);
+                font-family: "Arial"; color: rgb(0, 0, 0);
                 position: absolute;
                 left:20%;
                 right:20%;
@@ -55,6 +55,17 @@
                 border:none;
                 cursor: pointer;
                 transition: all 0.3s ease 0s;
+            }
+            @media screen and (min-width: 721px) {
+                div.centered2 {
+                font-size: 30px;
+                }
+            }
+  
+            @media screen and (max-width: 720px) {
+                div.centered2 {
+                font-size: 20px;
+                }
             }
         </style>
     </head>
