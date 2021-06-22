@@ -10,7 +10,7 @@
             *{padding: 0; margin: 0; box-sizing: border-box;}
             body{background-color: #000000; width: 100%; min-height: 100vh;}
             p{
-                font-size: 80; font-family: "Arial"; color: rgb(255, 255, 255);
+                font-family: "Arial"; color: rgb(255, 255, 255);
                 position: absolute;
                 left:20%;
                 right:20%;
@@ -25,7 +25,32 @@
                     left:100%;
                 }
             }
-            a{color: rgb(255, 255, 255); text-decoration: none; font-family: Arial; font-size: 28px}
+
+            @media screen and (min-width: 721px) {
+                p {
+                font-size: 80px;
+                }
+            }
+  
+            @media screen and (max-width: 720px) {
+                p {
+                font-size: 30px;
+                }
+            }
+
+            @media screen and (min-width: 721px) {
+                header nav ul li{
+                font-size: 28px;
+                }
+            }
+  
+            @media screen and (max-width: 720px) {
+                header nav ul li{
+                font-size: 20px;
+                }
+            }
+
+            a{color: rgb(255, 255, 255); text-decoration: none; font-family: Arial;}
             a:hover{color:rgba(255, 255, 255, 0.616);}
             header{
                 display:flex;
@@ -33,6 +58,7 @@
                 align-items: center;
                 padding-left: 70px;
                 padding-top: 40px;
+                padding-right: 70px;
             }
             .logo{
                 cursor:pointer;
@@ -59,7 +85,7 @@
         <header>
             <nav>
                 <ul class="nav_links">
-                    <li><a href="LCT1.html">1 [YOU ARE HERE]</a></li>
+                    <li><a href="LCT1.html">1[YOU ARE HERE]</a></li>
                     <li><a href="LCT2.html">2</a></li>
                     <li><a href="LCT3.html">3</a></li>
                     <li><a href="LCT4.html">4</a></li>
