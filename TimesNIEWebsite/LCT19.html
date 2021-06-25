@@ -9,9 +9,17 @@
         <style>
             *{padding: 0; margin: 0; box-sizing: border-box;}
             .centered2{color: white}
-            body{color:black}
-            p{color: black; left:0}
-            .centered2{position:absolute; margin-left: 10px; margin-right: 10px; left:40%; top:50%}
+            @media screen and (min-width: 721px) {
+                div.centered2 {
+                font-size: 25px;
+                }
+            }
+  
+            @media screen and (max-width: 720px) {
+                div.centered2 {
+                font-size: 10px;
+                }
+            }
         </style>
     </head>
 
@@ -19,7 +27,7 @@
         <div class = "containerAnim">
             <img class = "container" src='LCT9.jpeg' height=100% width = 100%>
             <div class="centered2">
-                <h3 style='word-wrap:break-word'>Global warming is expected to have far-reaching, long-lasting and, in many cases, devastating consequences for planet Earth. Already, global warming is having a measurable effect on the planet. Ice is melting in both polar ice caps and mountain glaciers. Lakes around the world, including Lake Superior, are warming rapidly — in some cases faster than the surrounding environment. Animals are changing migration patterns and plants are changing the dates of activity such as trees budding their leaves earlier in the spring and dropping them later in the fall. Lets look at the major affects one by one</h3>
+                <h3 style='word-wrap:break-word'>Global warming is expected to have far-reaching, long-lasting and, in many cases, devastating consequences for planet Earth. Already, global warming is having a measurable effect on the planet. Ice is melting in both polar ice caps and mountain glaciers. Lakes around the world, including Lake Superior, are warming rapidly — in some cases faster than the surrounding environment. Animals are changing migration patterns and plants are changing the dates of activity such as trees budding their leaves earlier in the spring and dropping them later in the fall. Lets look at the major affects one by one.</h3>
             </div>
             <a href="LCT20.html" class = "bottom-right">NEXT PAGE</a>
             <a href="LCT18.html" class = "bottom-left">PREVIOUS PAGE</a>
