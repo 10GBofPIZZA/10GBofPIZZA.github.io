@@ -61,6 +61,7 @@ body{font-family: 'Arial'; width:100%; height:100%}
     bottom: 8px;
     right: 16px;
     font-size: 15px;
+    text-shadow: 2px 2px black;
 }
 
 .bottom-left {
@@ -68,6 +69,7 @@ body{font-family: 'Arial'; width:100%; height:100%}
     bottom: 8px;
     left: 16px;
     font-size: 15px;
+    text-shadow: 2px 2px black;
 }
 
 a{color: white;}
