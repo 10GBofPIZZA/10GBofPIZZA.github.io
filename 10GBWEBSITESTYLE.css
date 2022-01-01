@@ -10,6 +10,8 @@ button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
     font-family: JBfont;
 }
 
+h2{font-family:Arial}
+
 body h3{font-family: JBfont; font-style: normal; font-weight: 200;}
 
 .imgcenter{margin-left: 85px; display: block; border-width: 5px; border-color: black;}
