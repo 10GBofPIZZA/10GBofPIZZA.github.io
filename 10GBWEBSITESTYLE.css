@@ -10,7 +10,12 @@ button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
     font-family: JBfont;
 }
 
-body h2{font-family:'Courier New', Courier, monospace;}
+@font-face {
+src:url("Fonts/alsina/Alsina\ Ultrajada.TTF");
+    font-family: Alsina;
+}
+
+body h2{font-family: Alsina;}
 
 body h3{font-family: JBfont; font-style: normal; font-weight: 200;}
 
