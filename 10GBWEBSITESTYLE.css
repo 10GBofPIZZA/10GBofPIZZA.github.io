@@ -41,3 +41,10 @@ ul li{list-style: none; display: inline-block;}
 ul li a{text-decoration: none; color:rgb(0, 80, 172);; display: block;}
 ul li a:hover{color:rgb(22, 55, 206);}
 
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 15px;
+    text-shadow: 2px 2px black;
+}
