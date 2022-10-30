@@ -1,6 +1,6 @@
-body h1{color: #f12f39; font-family: ARIAL; margin-top: 50px; text-shadow: 2px 2px black;}
+body h1{color: rgb(205, 241, 255); font-family: ARIAL; margin-top: 50px; text-shadow: 2px 2px black;}
 body h2{color: #649ad8; font-family: ARIAL; text-shadow: 1px 1px black}
-body{background-color: #bfe9e4; color: #db1c47; font-family: "Andale Mono"; background-image: url("Minecraft.png");}
+body{background-color: #001055; color: #db1c47; font-family: "Andale Mono";}
 body img {border: 1px solid black; max-width: 100%; }
 a{color: #ffffff;}
 button{background-color:#add8e6; margin-top: 50px; margin-bottom: 50px}
@@ -38,8 +38,8 @@ body h3{font-family: JBfont; font-style: normal; font-weight: 200;}
 .jetbrainsmonofont{font-family: JBfont; text-align: center; margin: 10px;}
 
 ul li{list-style: none; display: inline-block;}
-ul li a{text-decoration: none; color:rgb(0, 80, 172);; display: block;}
-ul li a:hover{color:rgb(22, 55, 206);}
+ul li a{text-decoration: none; color:rgb(161, 205, 255);; display: block;}
+ul li a:hover{color:rgb(79, 111, 255);}
 
 .bottom-right {
     position: absolute;
